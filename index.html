@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ለኔ ልዩ ፍቅር... ይቅርታ ❤️</title>
+    <title>ለኔ ልዩ ሚስት... ይቅርታ ❤️</title>
     <style>
       * {
         margin: 0;
@@ -217,14 +217,14 @@
 
         // የጽሁፎቹ ቁጥር ሲያልቅ (የመጨረሻው ጥያቄ ገጽ ላይ ሲደርስ)
         if (currentIndex >= messages.length) {
-          title.innerText = "የእውነት ይቅር ትይኛለሽ?";
+          title.innerText = "የኔ መባ እንታረቅ እባክሽ😭";
           emoji.innerText = "🥺❤️";
           messageText.innerHTML =
             "<b>እባክሽን ይቅርታዬን ተቀብለሽ እንታረቅ?</b><br>ሁሉንም ነገር ወደ ቀድሞው ውብ ጊዜ እንመልሰው!";
 
           actions.innerHTML = `
                     <button onclick="acceptAndSendTelegram()" class="telegram-btn">
-                        አዎ፣ እንታረቅ! 🥰
+                        እሺ፣ እንታረቅ! 🥰
                     </button>
                 `;
         } else {
@@ -237,7 +237,7 @@
 
           // የመጨረሻው መልዕክት ላይ ሲደርስ የቁልፉን ጽሁፍ ይቀይራል
           if (currentIndex === messages.length - 1) {
-            document.getElementById("next-btn").innerText = "ፍጻሜውን ለማየት ➔";
+            document.getElementById("next-btn").innerText = "ቀጣይ ➔";
           }
         }
       }
